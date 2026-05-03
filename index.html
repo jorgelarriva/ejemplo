@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Media Publisher App</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(135deg,#0f172a,#1e293b);
+      color:white;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:30px;
+    }
+
+    .card{
+      width:100%;
+      max-width:900px;
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.15);
+      backdrop-filter:blur(12px);
+      border-radius:20px;
+      padding:50px;
+      box-shadow:0 20px 50px rgba(0,0,0,.3);
+    }
+
+    h1{
+      font-size:3rem;
+      margin-bottom:20px;
+    }
+
+    p{
+      line-height:1.7;
+      color:#dbeafe;
+      margin-bottom:20px;
+      font-size:1.05rem;
+    }
+
+    .badge{
+      display:inline-block;
+      padding:10px 18px;
+      background:#22c55e;
+      border-radius:999px;
+      font-weight:bold;
+      margin-bottom:30px;
+    }
+
+    .links{
+      margin-top:30px;
+      display:flex;
+      gap:15px;
+      flex-wrap:wrap;
+    }
+
+    a{
+      text-decoration:none;
+      color:white;
+      background:#2563eb;
+      padding:14px 22px;
+      border-radius:12px;
+      transition:.25s;
+      font-weight:bold;
+    }
+
+    a:hover{
+      background:#1d4ed8;
+      transform:translateY(-2px);
+    }
+
+    footer{
+      margin-top:35px;
+      color:#94a3b8;
+      font-size:.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="badge">Application Website</div>
+
+    <h1>Media Publisher App</h1>
+
+    <p>
+      Media Publisher App is a web application designed to help users create,
+      manage and publish multimedia content to supported social platforms
+      through secure authorization flows.
+    </p>
+
+    <p>
+      The application uses OAuth authentication and only accesses user data
+      after explicit authorization. No private information is sold or shared
+      with third parties.
+    </p>
+
+    <p>
+      This website provides legal information regarding privacy, terms of use,
+      and application functionality.
+    </p>
+
+    <div class="links">
+      <a href="terms-of-service.html">Terms of Service</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+
+    <footer>
+      © 2026 Media Publisher App — All rights reserved.
+    </footer>
+  </div>
+
+</body>
+</html>
